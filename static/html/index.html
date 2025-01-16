@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracks Under Category "All"</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="header_top">Welcome to UT_Marine</div>
+
+    <div class="navigation_container">
+        <div class="navigation_button">
+            <button class="navigation_button_inner" id="home-tab">Home</button>
+        </div>
+        <div class="navigation_button">
+            <button class="navigation_button_inner" id="tracks-tab">Tracks</button>
+        </div>
+    </div>
+
+    <div id="home-section">
+        <div class="header_mid">Home</div>
+        <br><br>
+        <p>Welcome to our music collection, where we share information about our tracks.</p>
+        <br><br>
+        <div id="version-display"></div>
+    </div>
+
+    <div id="tracks-section" style="display:none;">
+        <div class="header_mid">Tracks Under Category "All"</div>
+        <h4>Track Information In Order: Track Number/Name/Album/Artist/Duration (In seconds)/URL</h4>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Track#</th>
+                        <th>Name-of-the-Track</th>
+                        <th>Name-of-the-Album</th>
+                        <th>Name-of-the-Artist</th>
+                        <th>Duration-of-the-Track</th>
+                        <th>Uniform-Resource-Locator</th>
+                    </tr>
+                </thead>
+                <tbody id="tracks-tbody">
+                    <!-- Tracks are loaded here -->
+                </tbody>
+            </table>
+        </div>
+        <nav>
+            <h3>Page <span id="current-page"></span> of <span id="total-pages"></span></h3>
+            <button id="prev-page">Previous Page</button>
+            <button id="next-page">Next Page</button>
+        </nav>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

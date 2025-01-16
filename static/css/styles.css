@@ -1,0 +1,123 @@
+body {
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_top {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Verdana";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header_mid {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Verdana";
+}
+
+#tracks-section {
+    padding: 20px;
+    text-align: center;
+    font-family: "Verdana";
+}
+
+#home-section {
+    padding: 20px;
+    display: flex;
+    font-family: "Verdana";
+}
+
+#version-info {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(148, 172, 191);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: "Verdana", sans-serif;
+    border: none;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#version-info:hover {
+    background-color: #45a049;
+}
+
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(249, 249, 249);
+    font-family: "Verdana";
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    text-align: left;
+    font-family: "Verdana";
+}
+
+th {
+    background-color: rgb(242, 242, 242);
+    font-family: "Verdana";
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(148, 172, 191);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Verdana", sans-serif;
+}
+
+.navigation_container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Verdana";
+}
+
+.navigation_button {
+    margin: 0 10px;
+    font-family: "Verdana";
+}
+
+.navigation_button_inner {
+    background-color: rgb(148, 172, 191);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-family: "Verdana", sans-serif;
+}
+
+.navigation_button_inner:hover {
+    background-color: rgb(205, 218, 231);
+}
